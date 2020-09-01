@@ -138,3 +138,52 @@ overflow: hidden;
      font-size: large;
      
  }
+ .main-footer{
+     background-color: #233d4d;
+     color: white;
+     width: 950px;
+     height: auto;
+     padding: 25px;
+    
+ }
+ .footer-box{
+     width: 237.5px;
+     height: auto;
+     float: left;
+     font-family: sans-serif;
+ }
+ .footer-box ul{
+     list-style-type: none;
+     margin: 0px;
+     padding: 0px;
+ }
+ .footer-box ul li a{
+     display: block;
+     color: whitesmoke;
+    margin-bottom: 5px;
+    text-decoration: none;
+    font-size: small;
+ }
+ .footer-box ul li :hover{
+    color: #fcca46;
+  
+}
+.footer-box address a{
+    color: aliceblue;
+    font-size: medium;
+    text-decoration: none;
+}
+.footer-box p{
+    font-size: medium;
+}
+.copy{
+    font-family: sans-serif;
+    color: #003249;
+    background-color: #89b0ae;
+    text-align: center;
+    font-size: medium;
+    padding: 15px;
+}
+.copy p{
+    margin: 0px;
+}
