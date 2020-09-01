@@ -1,0 +1,140 @@
+body{
+    margin: 0 auto;
+    background-color: #3c5d64 ;
+    
+}
+.container{
+    width: 1000px;
+    height: auto;
+    margin: auto;
+    background-color: #89b0ae;
+
+}
+.logo{
+    float: left;
+   padding:12px;
+
+}
+.search
+{
+    float: right;
+    padding:12px;
+
+}
+.clearfix{
+    clear: both;
+}
+.main_menu
+{
+    background-color: #b8d8d8;
+}
+.main_menu>ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.main_menu>ul>li{
+    display: inline-block;
+    
+}
+.main_menu>ul>li>a{
+    color: #003249;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    font-family: sans-serif;
+    font-size:medium;
+    
+}
+.main_menu>ul>li>a:hover{
+    background-color: #fcca46;
+    /* font-size: larger; */
+}
+
+.sublist{
+    list-style-type: none;
+    margin:0px;
+    padding: 0px;
+    position: absolute;
+    display: none;
+    z-index: 999;
+}
+.sublist>li>a{
+    color: #003249;
+    background-color: white;
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+    font-family: sans-serif;
+    font-size:medium;
+    
+}
+.sublist>li>a:hover{
+    background-color: #fcca46;
+    
+}
+.main_menu>ul>li:hover .sublist{
+    display: block;
+}
+/* banner */
+.banner{
+width: 1000px;
+height: 562.5px;
+overflow: hidden;
+}
+
+.banner>img{
+    width: 100%;
+    height: auto;
+}
+/* content holder */
+.contentHolder{
+    background-color: #fcca46;
+}
+.content{
+    width: 700px;
+    height: auto;
+    padding: 25px;
+    background-color: #b8d8d8;
+    float: left;
+}
+.content h1{
+    font-family: sans-serif;
+    font-size: 1.5em;
+    font-style: bold;
+}
+.content p{
+    font-family: sans-serif;
+    font-size: small;
+    line-height: 2em;
+    word-spacing: 0.2em;
+    font-style: oblique;
+}
+ .sideBar{
+    float: left;
+    padding: 25px;
+ }
+ .sideBar h3{
+     font-family: sans-serif;
+     color: #003249;
+     font-weight: bold;
+ }
+ .sideBar ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+ }
+ .sideBar ul>li>a
+ {
+     display: block;
+     color: #3c5d64;
+     margin-bottom: 5px;
+     font-family: sans-serif;
+     font-weight: bolder;
+     font-size: medium;
+     text-decoration: none;
+ }
+ .sideBar ul>li>a:hover{
+     font-size: large;
+     
+ }
