@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>contacts</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -40,16 +40,16 @@
             </nav><!--navigation-->
 
         </header> <!--header-->
+        <section class="banner" >
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.5338912919724!2d86.47187591445405!3d23.6568579982613!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f696e95958a6d5%3A0x7c14e668e6f2feea!2sBIT%20Sindri!5e0!3m2!1sen!2sin!4v1599390069115!5m2!1sen!2sin"  frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </section> <!--google maps-->
 
-        <section class="banner cycle-slideshow" >
-            <img  src="images/header.png" alt=" banner">
-            <img  src="images/coverImage.jpg" alt="cover">
-        </section> <!--banner-slider-->
+     
 
         <section class="contentHolder"><!--content holder-->
             <article class="content"><!--content-->
                 <main>
-                    <h1>Lorem ipsum dolor sit amet consectetur</h1>
+                    <h1>Contacts</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                          Odio labore officiis repellendus ratione vero nesciunt,
                          consequuntur, eius adipisci eum est totam maiores voluptatum?
@@ -57,18 +57,34 @@
                           Odio labore officiis repellendus ratione vero nesciunt,
                           consequuntur, eius adipisci eum est totam maiores voluptatum?
                            Harum iusto magni omnis beatae dicta ipsa</p>
-
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Odio labore officiis repellendus ratione vero nesciunt,
-                            consequuntur, eius adipisci eum est totam maiores voluptatum?
-                             Harum iusto magni omnis beatae dicta ipsa.Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                             Odio labore officiis repellendus ratione vero nesciunt,
-                             consequuntur, eius adipisci eum est totam maiores voluptatum?
-                              Harum iusto magni omnis beatae dicta ipsa
-                              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                              Odio labore officiis repellendus ratione vero nesciunt,
-                              consequuntur, eius adipisci eum est totam maiores voluptatum?
-                               Harum iusto magni omnis beatae dicta ipsa</p>
+                           
+                           <div class="contact-form">
+                            <form  method="POST"></form>
+                            <table>
+                                <tr>
+                                    <td>name</td>
+                                    <td><input type="text" name="username" placeholder="enter name" required></td>
+                                </tr>
+                                <tr>
+                                    <td>email</td>
+                                    <td><input type="email" name="eamil"  placeholder="xyz@gmail.com"></td>
+                                </tr>
+                                <tr>
+                                    <td>phone</td>
+                                    <td><input type="tel" name="phone"  placeholder="+91xxxxxxxxxx" ></td>
+                                </tr>
+                                <tr>
+                                    <td>subject</td>
+                                   <td><textarea name="subject" id="" cols="30" rows="5"  placeholder="message" ></textarea></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td><input type="submit" value="send"></td>
+                                </tr>
+                            </table>
+                        </form>
+                           </div>
+                           
                 </main>
             </article><!--content-->
 

@@ -97,6 +97,7 @@ overflow: hidden;
     padding: 25px;
     background-color: #b8d8d8;
     float: left;
+    font-family: sans-serif;
 }
 .content h1{
     font-family: sans-serif;
@@ -186,4 +187,53 @@ overflow: hidden;
 }
 .copy p{
     margin: 0px;
+}
+.content img{
+    width: 100%;
+    height: auto;
+}
+.product{
+    width: 210.333px;
+    height: auto;
+    float: left;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+}
+.product img{
+    width: 100%;
+    height: auto;
+}
+.product-caption p{
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: medium;
+    text-align: center;
+    font-style: normal;
+    text-shadow: 1px 9px 9px black;
+
+}
+.product-caption a{
+    display: block;
+    background-color: #003249;
+    color: aliceblue;
+    text-decoration: none;
+    font-family: sans-serif;
+    padding: 8px;
+    font-size: medium;
+    font-style: normal;
+}
+.product-caption a:hover{
+    background-color: #fcca46;
+    color: #003249;
+}
+.product-caption del{
+    color: red;
+}
+.product-caption ins{
+    color: green;
+}
+.banner iframe{
+    width: 100%;
+    height: 562.5px;
 }
